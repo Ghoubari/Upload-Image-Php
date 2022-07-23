@@ -26,7 +26,7 @@ if(!empty($_FILES['image']))
                 {
                     ?>
                         <!DOCTYPE html>
-                        <html lang="en">
+                        <html lang="fr">
                         <head>
                             <meta charset="UTF-8">
                             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,18 +53,18 @@ if(!empty($_FILES['image']))
                 }
                 else
                 {
-                    echo 'Error';
+                    echo 'Erreur';
                 }
             }
             else
             {
-                echo 'Size is too big';
+                echo 'Taille de fichier incorrecte !';
             }
         }
     } 
     else 
     {
-        echo "type non autorisé";
+        echo "Type non autorisé";
     }
 }
 
